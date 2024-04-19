@@ -17,9 +17,11 @@ when you need to create a new project, you definitely need an initial setup phas
 - [Dotenv](https://github.com/bkeepers/dotenv)
 
 ## How to use
-If you wish, you can clone this repository to your local machine, make any customizations, and when you're finished, you may need to run
-
+Create a new rails project with default template: 
 `$ rails new NAME_OF_YOUR_APP -m https://raw.githubusercontent.com/wise-emotions/telepass-rails-template/main/basic_template.rb`
+
+Or, if you have necessity to modify this repository, you can clone this repository to your local machine, make any customizations, and when you're finished, you may need to run
+`$ rails new NAME_OF_YOUR_APP -m <PATH_YOUR_LOCAL_CLONE_PROJECT>/telepass-rails-template/main/basic_template.rb`
 
 ## Thanks 
 Pull requests and improvements are always welcome.
